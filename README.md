@@ -25,14 +25,14 @@
 ## 📦 Installation & Usage
 
 ### Option A: Download (Windows)
-No coding required. Download the latest version from the [Releases Page](link-to-releases).
+No coding required. Download the latest version from the [Releases Page](https://github.com/N0tN3o/CineSlice/releases/tag/v1.0.0).
 1. Unzip the folder.
 2. Run `CineSlice.exe`.
 
 ### Option B: Run from Source
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/CineSlice.git](https://github.com/yourusername/CineSlice.git)
+    git clone https://github.com/N0tN3o/CineSlice.git
     cd CineSlice
     ```
 2.  **Install dependencies:**
