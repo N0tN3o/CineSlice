@@ -1,0 +1,17 @@
+# Python & Build junk
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.spec
+venv/
+.env
+
+# Application Specific
+ffmpeg/
+logs/
+*.log
+
+# System junk
+.DS_Store
+Thumbs.db

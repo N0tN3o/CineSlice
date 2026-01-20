@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Németh Vince
+Copyright (c) 2026 Vince Németh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+THIRD-PARTY NOTICES:
+
+This software uses the following open-source components:
+
+1. FFmpeg
+   Licensed under the LGPL v2.1+ / GPL v2+.
+   FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+   Source code: https://ffmpeg.org
+
+2. PySide6 (Qt for Python)
+   Licensed under the LGPL v3.
+   Qt is a registered trademark of The Qt Company Ltd.
+   Source code: https://www.qt.io/qt-for-python
