@@ -2,7 +2,7 @@ import os
 import sys
 from PySide6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                                QLabel, QPushButton, QLineEdit, QFileDialog, 
-                               QComboBox, QSpinBox, QProgressBar, QMessageBox, QGroupBox)
+                               QComboBox, QSpinBox, QProgressBar, QMessageBox, QGroupBox, QStyle)
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QIcon
 from core.worker import ExtractionWorker
@@ -114,7 +114,6 @@ class MainWindow(QMainWindow):
         if fname:
             self.path_input.setText(fname)
             # Default output to same folder
-            import os
             self.out_input.setText(os.path.dirname(fname))
             self.analyze_video(fname)
 
@@ -193,7 +192,6 @@ class MainWindow(QMainWindow):
         msg_box.setWindowTitle("Result")
         msg_box.setText(message)
         msg_box.setIcon(QMessageBox.Information if success else QMessageBox.Critical)
-        from PySide6.QtWidgets import QStyle
         msg_box.setWindowIcon(self.style().standardIcon(QStyle.StandardPixmap.SP_MessageBoxWarning))
         msg_box.exec()
 
