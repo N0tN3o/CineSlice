@@ -25,7 +25,7 @@
 ## 📦 Installation & Usage
 
 ### Option A: Download (Windows)
-No coding required. Download the latest version from the [Releases Page](https://github.com/N0tN3o/CineSlice/releases/tag/v1.0.0).
+No coding required. Download the latest version from the [Releases Page](https://github.com/N0tN3o/CineSlice/releases).
 1. Unzip the folder.
 2. Run `CineSlice.exe`.
 
